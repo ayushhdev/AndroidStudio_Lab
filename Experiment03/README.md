@@ -2,9 +2,9 @@
 
 ## Student Details
 
-**Name:** Bhavya Khatri
+**Name:** Ayush Kumar
 
-**USN:** 25MCAR0217
+**USN:** 25MCAR0224
 
 ---
 
