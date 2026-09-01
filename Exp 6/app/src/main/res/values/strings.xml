@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">BasicViews</string>
+
+    <string name="screen_title">Basic Views</string>
+    <string name="screen_subtitle">One screen, every common Android widget</string>
+
+    <!-- TextView / EditText / Button -->
+    <string name="section_text">TextView, EditText and Button</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="action_greet">Say hello</string>
+    <string name="greeting_empty">The greeting will appear here.</string>
+
+    <!-- CheckBox -->
+    <string name="section_checkbox">CheckBox</string>
+    <string name="skill_kotlin">Kotlin</string>
+    <string name="skill_xml">XML layouts</string>
+    <string name="skill_gradle">Gradle</string>
+
+    <!-- RadioButton -->
+    <string name="section_radio">RadioGroup and RadioButton</string>
+    <string name="device_phone">Phone</string>
+    <string name="device_tablet">Tablet</string>
+    <string name="device_foldable">Foldable</string>
+
+    <!-- Switch / ToggleButton -->
+    <string name="section_toggle">Switch and ToggleButton</string>
+    <string name="switch_notifications">Email updates</string>
+
+    <!-- Spinner -->
+    <string name="section_spinner">Spinner</string>
+    <string name="spinner_label">Favourite subject</string>
+
+    <!-- SeekBar / RatingBar -->
+    <string name="section_seek">SeekBar and RatingBar</string>
+    <string name="seek_label">Hours of practice per week</string>
+    <string name="rating_label">Rate this experiment</string>
+
+    <!-- ImageView / ImageButton / ProgressBar -->
+    <string name="section_image">ImageView, ImageButton and ProgressBar</string>
+    <string name="image_caption">Tap the heart to like this app</string>
+    <string name="cd_banner">Android logo</string>
+    <string name="cd_like">Like</string>
+
+    <!-- Actions -->
+    <string name="action_submit">Submit</string>
+    <string name="action_reset">Reset</string>
+
+    <!-- Summary screen -->
+    <string name="summary_title">Your selections</string>
+    <string name="summary_subtitle">Collected from the views on the previous screen</string>
+    <string name="action_back">Back</string>
+    <string name="label_name">Name</string>
+    <string name="label_skills">Skills (CheckBox)</string>
+    <string name="label_device">Device (RadioButton)</string>
+    <string name="label_updates">Email updates (Switch)</string>
+    <string name="label_theme">Dark mode (ToggleButton)</string>
+    <string name="label_subject">Subject (Spinner)</string>
+    <string name="label_hours">Practice hours (SeekBar)</string>
+    <string name="label_rating">Rating (RatingBar)</string>
+    <string name="label_likes">Likes (ImageButton)</string>
+
+    <string-array name="subjects">
+        <item>Mobile Application Development</item>
+        <item>Data Structures</item>
+        <item>Operating Systems</item>
+        <item>Computer Networks</item>
+        <item>Database Management Systems</item>
+    </string-array>
+</resources>
