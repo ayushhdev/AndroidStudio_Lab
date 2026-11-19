@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ImageSlice: dark "editing desk" palette with a warm amber accent -->
+    <color name="bg_dark">#14161A</color>
+    <color name="surface">#1F232A</color>
+    <color name="surface_high">#2A2F38</color>
+    <color name="text_primary">#F2F3F5</color>
+    <color name="text_secondary">#9AA3AF</color>
+    <color name="accent">#FFB547</color>
+    <color name="on_accent">#1A1205</color>
+    <color name="grid_line">#E6FFFFFF</color>
+    <color name="cell_highlight">#55FFB547</color>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slice_title"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sliceInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/accent"
+        android:textSize="14sp" />
+
+    <!-- The cropped piece, shown large -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/bg_panel"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/sliceImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cd_slice"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/all_boxes"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <!-- Every box of the grid, as a GridView -->
+    <GridView
+        android:id="@+id/tileGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/bg_panel"
+        android:horizontalSpacing="4dp"
+        android:listSelector="@android:color/transparent"
+        android:padding="8dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/back" />
+</LinearLayout>

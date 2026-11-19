@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ImageSlice</string>
+    <string name="tagline">Load a picture, divide it into boxes and zoom into any one of them.</string>
+    <string name="credit">Ayush Kumar · USN 25MCAR0224</string>
+    <string name="pick_image">Pick Photo</string>
+    <string name="view_selected">Open Box</string>
+    <string name="empty_hint">Nothing loaded yet.\nTap \"Pick Photo\" to choose an image from your gallery.</string>
+    <string name="rows_label">Rows: %1$d</string>
+    <string name="cols_label">Columns: %1$d</string>
+    <string name="selection_none">Tap a box on the image to select it.</string>
+    <string name="selection_label">Selected: row %1$d, column %2$d of %3$d × %4$d</string>
+    <string name="toast_pick_first">Choose an image first.</string>
+    <string name="toast_select_first">Tap a box on the image to select it.</string>
+    <string name="toast_load_failed">Could not load that image.</string>
+    <string name="slice_title">Selected Box</string>
+    <string name="slice_info">Row %1$d, column %2$d · %3$d × %4$d px</string>
+    <string name="all_boxes">All boxes — tap one to switch</string>
+    <string name="back">Back to Grid</string>
+    <string name="cd_image">Selected image with grid overlay</string>
+    <string name="cd_slice">Cropped section of the image</string>
+</resources>

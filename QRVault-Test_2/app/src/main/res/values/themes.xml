@@ -1,0 +1,35 @@
+<resources>
+    <style name="Theme.QRVault" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/on_accent</item>
+        <item name="colorPrimaryContainer">@color/accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/accent_dark</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorOnSurfaceVariant">@color/ink_muted</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorError">@color/danger</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="QRVault.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/bg</item>
+        <item name="titleTextColor">@color/ink</item>
+        <item name="subtitleTextColor">@color/ink_muted</item>
+        <item name="titleTextAppearance">@style/TextAppearance.QRVault.ToolbarTitle</item>
+    </style>
+
+    <style name="TextAppearance.QRVault.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="QRVault.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="strokeColor">@color/outline</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+</resources>

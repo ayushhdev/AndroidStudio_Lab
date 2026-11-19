@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- QRVault: cool paper background, ink text, deep teal accent -->
+    <color name="bg">#F4F6F8</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#E9EEF2</color>
+    <color name="outline">#D5DCE3</color>
+    <color name="ink">#0F1B2A</color>
+    <color name="ink_muted">#5C6878</color>
+    <color name="accent">#0F766E</color>
+    <color name="accent_dark">#0A4F4A</color>
+    <color name="accent_soft">#D7F0EC</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="danger">#B42318</color>
+</resources>

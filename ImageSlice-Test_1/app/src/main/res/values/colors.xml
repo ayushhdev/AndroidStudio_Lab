@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ImageSlice: deep indigo "night studio" palette with a sky-blue accent -->
+    <color name="bg_dark">#0E1024</color>
+    <color name="surface">#181B36</color>
+    <color name="surface_high">#252949</color>
+    <color name="text_primary">#EEF0FF</color>
+    <color name="text_secondary">#A3A8C9</color>
+    <color name="accent">#7DD3FC</color>
+    <color name="on_accent">#06243A</color>
+    <color name="grid_line">#E6FFFFFF</color>
+    <color name="cell_highlight">#557DD3FC</color>
+</resources>

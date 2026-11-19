@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">QRVault</string>
+
+    <!-- Contacts screen -->
+    <string name="search_hint">Search contacts</string>
+    <plurals name="contacts_count">
+        <item quantity="one">%1$d contact</item>
+        <item quantity="other">%1$d contacts</item>
+    </plurals>
+    <string name="contacts_count_filtered">%1$d of %2$d contacts</string>
+    <string name="menu_about">About</string>
+    <string name="about_body">Share any contact as a QR code. Built with the Contacts Content Provider, ZXing, SQLite and Intents.\n\nDeveloped by Ayush Kumar\nUSN: 25MCAR0224</string>
+    <string name="ok">OK</string>
+    <string name="menu_scan">Scan QR</string>
+    <string name="menu_history">History</string>
+    <string name="permission_title">Allow access to contacts</string>
+    <string name="permission_body">QRVault reads names, phone numbers and emails from your address book so you can turn a contact into a QR code. Nothing leaves your phone unless you share it.</string>
+    <string name="permission_grant">Allow Access</string>
+    <string name="permission_settings">Open Settings</string>
+    <string name="no_contacts">No contacts on this device yet.\nAdd one in your Contacts app, then come back.</string>
+    <string name="no_matches">No contacts match \"%1$s\".</string>
+    <string name="no_details">No phone or email</string>
+    <string name="camera_denied">Camera permission is needed to scan QR codes.</string>
+
+    <!-- Scan result -->
+    <string name="scan_prompt">Point the camera at a QR code</string>
+    <string name="scan_contact_title">Contact found</string>
+    <string name="scan_text_title">Scanned text</string>
+    <string name="scan_add_contact">Add to Contacts</string>
+    <string name="scan_copy">Copy</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="close">Close</string>
+    <string name="no_contacts_app">No Contacts app is available to save this contact.</string>
+
+    <!-- QR screen -->
+    <string name="qr_title">Contact QR</string>
+    <string name="qr_saved_history">Saved to history · %1$s</string>
+    <string name="qr_from_history">From history · %1$s</string>
+    <string name="save_gallery">Save to Gallery</string>
+    <string name="share">Share</string>
+    <string name="show_payload">Show encoded vCard</string>
+    <string name="hide_payload">Hide encoded vCard</string>
+    <string name="saved_gallery">Saved to Pictures/QRVault</string>
+    <string name="save_failed">Could not save the image.</string>
+    <string name="share_failed">Could not prepare the image for sharing.</string>
+    <string name="share_chooser">Share QR code via</string>
+    <string name="share_subject">Contact: %1$s</string>
+    <string name="qr_failed">Could not generate a QR code for this contact.</string>
+    <string name="history_missing">That history entry no longer exists.</string>
+    <string name="card_caption">Scan to add contact</string>
+    <string name="label_phone">PHONE</string>
+    <string name="label_email">EMAIL</string>
+
+    <!-- History screen -->
+    <string name="history_title">QR History</string>
+    <plurals name="history_count">
+        <item quantity="one">%1$d saved code</item>
+        <item quantity="other">%1$d saved codes</item>
+    </plurals>
+    <string name="history_empty">No QR codes yet.\nPick a contact to generate your first one.</string>
+    <string name="clear_all">Clear All</string>
+    <string name="clear_confirm_title">Clear history?</string>
+    <string name="clear_confirm_body">This deletes every saved QR code from QRVault. Images already saved to your gallery stay there.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="deleted_entry">Deleted %1$s</string>
+    <string name="undo">Undo</string>
+
+    <string name="cd_qr">QR code for %1$s</string>
+    <string name="cd_delete">Delete entry</string>
+</resources>
